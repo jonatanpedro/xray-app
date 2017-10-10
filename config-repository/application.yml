@@ -1,0 +1,8 @@
+server:
+  port: ${PORT:8081}
+
+info:
+id: ${spring.application.name}
+
+logging:
+  level: info
