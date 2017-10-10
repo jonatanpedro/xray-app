@@ -1,8 +1,8 @@
 server:
-  port: ${PORT:8081}
+  port: ${PORT:${SERVER_PORT:0}}
 
 info:
-id: ${spring.application.name}
+  id: ${spring.application.name}
 
 logging:
-  level: info
+  level: debug
