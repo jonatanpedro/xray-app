@@ -40,10 +40,14 @@ dependencies {
 	compile('org.springframework.data:spring-data-rest-hal-browser')
 	compile('org.springframework.boot:spring-boot-starter-validation')
     compile('org.springframework.boot:spring-boot-starter-undertow:1.5.7.RELEASE')
-	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-web:')
+    compile('org.springframework.cloud:spring-cloud-starter-security')
+    compile('org.springframework.security.oauth:spring-security-oauth2')
+    compile('org.springframework.security:spring-security-jwt')
 	runtime('com.h2database:h2')
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+
 }
 
 dependencyManagement {

@@ -9,5 +9,5 @@ spring:
     config:
       server:
         git:
-          uri: file://home/jonatanpedro/Projetos/cloud-config-repo
+          uri: file:///home/jonatanpedro/Projetos/cloud-config-repo
 
